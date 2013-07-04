@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+#
+#
+
+killall privoxy
+sleep 1
+killall privoxy
+wait
+
+cd /home/Onion/.App/ioOnion1.0-Debian7/Linux-ia32/etc/
+
+/home/Onion/.App/ioOnion1.0-Debian7/Linux-ia32/sbin/privoxy &
+
+cd

@@ -1,0 +1,2 @@
+export LC_ALL=C
+./configure --prefix=/home/Onion/.App/ioOnion1.0-Debian7/Linux-ia32 --with-docbook=no   --disable-editor  --enable-large-file-support

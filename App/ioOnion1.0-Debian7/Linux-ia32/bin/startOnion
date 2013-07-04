@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+input="$@"
+
+cd
+
+[ ! -f $HOME/.vidalia/vidalia.conf ] && mkdir -p $HOME/.vidalia && cp -u /home/Onion/.App/ioOnion1.0-Debian7/Linux-ia32/etc/vidalia.conf $HOME/.vidalia/
+
+wait
+
+/home/Onion/.App/ioOnion1.0-Debian7/Linux-ia32/bin/vidalia $input
